@@ -13,6 +13,6 @@ module.exports = {
 		});
 		//await interaction.reply({ files: [{ attachment: imageBuffer, name: 'tpdne.jpg' }] });
 		await interaction.reply('Imperial');
-		await interaction.channel.send({ files: [{ attachment: imageBuffer, name: 'imperial.jpg' }] });
+		await interaction.channel.send({ files: [{ attachment: imageBuffer, name: 'imperial.gif' }] });
 	},
 };
